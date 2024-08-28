@@ -14,20 +14,6 @@
 		<p></p>
 		<input type="text" v-model="userName" placeholder="what's your name?"
 			@keydown.enter="$store.dispatch('updateName', userName)" />
-		<br><br><br><br><br>
-		<form action="" id="login-form">
-			<label for="email">
-				Email
-				<input type="email" name="email" id="email" required />
-			</label>
-			<br>
-			<label for="password">
-				Password
-				<input type="password" name="password" id="password" required />
-			</label>
-			<br>
-			<button id="btn" type="submit">Login</button>
-		</form>
 	</div>
 </template>
 
